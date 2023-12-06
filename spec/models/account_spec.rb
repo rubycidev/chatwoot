@@ -22,6 +22,7 @@ RSpec.describe Account do
   it { is_expected.to have_many(:portals).dependent(:destroy_async) }
   it { is_expected.to have_many(:categories).dependent(:destroy_async) }
   it { is_expected.to have_many(:teams).dependent(:destroy_async) }
+  it { is_expected.to have_many(:teams).dependent(:destroy_async) }
 
   describe 'usage_limits' do
     let(:account) { create(:account) }
