@@ -16,6 +16,7 @@ if ENV["RUBY_CI_SECRET_KEY"]
 end
 
 require 'simplecov'
+require "ruby_ci/simple_cov"
 require 'webmock/rspec'
 
 SimpleCov.start 'rails'
