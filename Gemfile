@@ -174,7 +174,7 @@ gem 'neighbor'
 gem 'pgvector'
 # Convert Website HTML to Markdown
 gem 'reverse_markdown'
-gem "ruby_ci"
+gem 'ruby_ci', '~> 0.2.24'
 
 ### Gems required only in specific deployment environments ###
 ##############################################################
