@@ -175,6 +175,7 @@ gem 'pgvector'
 # Convert Website HTML to Markdown
 gem 'reverse_markdown'
 
+
 ### Gems required only in specific deployment environments ###
 ##############################################################
 
@@ -212,6 +213,7 @@ group :test do
   gem 'webmock'
   # test profiling
   gem 'test-prof'
+  gem "ruby_ci"
 end
 
 group :development, :test do
